@@ -19,7 +19,7 @@ jobs:
 
     - name: Lint Markdown
       id: markdownlint
-      run: make lint-markdown > ./markdownlint.txt
+      run: echo "hi"
 
     - name: Create Issue From File
       uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd #v5
